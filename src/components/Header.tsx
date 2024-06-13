@@ -76,8 +76,8 @@ export default function Header() {
           ) : (
             <div className="flex items-center gap-2 bg-greenBase px-3 py-3 text-lg rounded-lg text-white font-medium hover:translate-x-1 transition-all cursor-pointer">
               <BiLogIn />
-              {/* <Link href="/loginPage">Log In</Link> */}
-              <button onClick={() => signIn()}>Login</button>
+              <Link href="/loginPage">Log In</Link>
+              {/*<button onClick={() => signIn()}>Login</button>*/}
             </div>
           )}
           
