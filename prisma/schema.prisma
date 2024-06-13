@@ -1,0 +1,54 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  username  String
+  password  String
+  role      String   @default("user")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Laporan {
+  id         String   @id @default(uuid())
+  nama       String[]
+  whatsapp   String[]
+  email      String[]
+  namaJalan  String[]
+  provinsi   String[]
+  kecamatan  String[]
+  kota       String[]
+  keterangan String[]
+  imagePath  String?
+}
+
+model Donasi {
+  id       String @id @default(uuid())
+  nama     String
+  whatsapp String
+  email    String
+  donasi   String
+  doa      String
+  metode   String
+}
+
+model Berita {
+  id       String   @id @default(uuid())
+  title    String[]
+  date     String[]
+  sumber   String[]
+  kategori String[]
+  desc     String[]
+  image    String?
+}

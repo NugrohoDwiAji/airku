@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "nama": "Diaz",
+      "jobdesk": "Designer",
+      "desc" : "I am an ambitious workaholic, but apart from that, pretty simple person."
+    },
+    {
+      "id": 2,
+      "nama": "Dian",
+      "jobdesk": "Designer",
+      "desc" : "I am an ambitious workaholic, but apart from that, pretty simple person"
+    },
+    {
+      "id": 3,
+      "nama": "Bayu",
+      "jobdesk": "Developer & Designer",
+      "desc" : "I am an ambitious workaholic, but apart from that, pretty simple person"
+    },
+    {
+      "id": 4,
+      "nama": "Angga",
+      "jobdesk": "Developer",
+      "desc" : "I am an ambitious workaholic, but apart from that, pretty simple person"
+    },
+    {
+      "id": 5,
+      "nama": "Aji",
+      "jobdesk": "Developer",
+      "desc" : "I am an ambitious workaholic, but apart from that, pretty simple person"
+    }
+  ]
+  
