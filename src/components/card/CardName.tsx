@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { FaInstagram } from "react-icons/Fa";
-import { FaGithub } from "react-icons/Fa";
-import { FaLinkedin } from "react-icons/Fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 import Link from "next/link";
 
 type CardNameType = {

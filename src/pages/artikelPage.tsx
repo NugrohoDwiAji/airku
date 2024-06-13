@@ -1,14 +1,13 @@
 import CardArtikel from "@/components/card/CardArtikel";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+
 import Image from "next/image";
 import { GrLinkNext } from "react-icons/gr";
 import { usePathname } from "next/navigation";
-import classnames from "classnames";
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { title } from "process";
+
 
 type BeritaType = {
   id: string;

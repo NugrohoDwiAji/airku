@@ -1,5 +1,4 @@
-import CardInfoAdmin from "@/components/card/CardInfoAdmin";
-import Footer from "@/components/Footer";
+
 import HeaderAdmin from "@/components/HeaderAdmin";
 import axios from "axios";
 import { useEffect, useState } from "react";
