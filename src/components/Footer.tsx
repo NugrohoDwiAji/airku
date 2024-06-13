@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/Fa";
-import { FaYoutube } from "react-icons/Fa";
-import { FaLinkedin } from "react-icons/Fa";
-import { FaTwitter } from "react-icons/Fa";
+import { FaFacebook } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
